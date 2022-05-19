@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aqua;
+}
+.inp{
+    margin: 12% 25%;
+}
+.inp-size{
+    width: 25%;
+    height: 3vh;
+}
+.btn{
+    width: 15%;
+    height: 3vh;
+    border-radius: 10px;
+    background-color: yellow;
+    border: 1px solid yellow;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: aqua;
+    color: white;
+    border:1px solid yellow ;
+}
+.text
+{
+    margin: 3% 1%;
+    width: 45%;
+    height: 42vh;
+    background-color: white;
+    border-radius: 10px;
+}
+.p{
+    text-align: center;
+    width: 100%;
+    height: 8%;
+}
+.img{
+    width: 50%;
+    height: 30vh;
+    margin-left:100px;
+}
