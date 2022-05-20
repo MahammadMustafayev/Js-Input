@@ -1,0 +1,19 @@
+.item{
+    width: 600px;
+    height: 600px;
+    border: 1px solid black;
+    float: left;
+}
+.item2{
+    width: 600px;
+    height: 600px;
+    border:  1px solid black;
+    float: right;
+}
+.circle{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    margin:  0 auto;
+    border-radius: 55%;
+}

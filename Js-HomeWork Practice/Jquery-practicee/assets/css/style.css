@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Light-Mode */
+.nav{
+    width: 100%;
+    height: 7vh;
+    background-color: rgb(233, 233, 233);
+    
+}
+
+.container{
+    margin: 0 4%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 1%;
+}
+.container .logo {
+    width: 5%;
+    height: 7vh;
+    
+}
+.container .menu .ul{
+    display: flex;
+    flex-direction: row;
+    margin: 0 2%;
+
+}
+.li {
+    margin: 0 5%;
+    list-style: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.drop{
+    width: 80px;
+    height: 100px;
+    background-color: white;
+}
+.ul-2{
+    display: flex;
+    flex-direction: column;
+    padding: 1% 0;
+}
+.b-2{
+    border: 1px solid black;
+    text-align: center;
+    
+}
+.d-none{
+    display: none;
+}
+.div{
+    padding-top: 500px;
+    position: fixed;
+    margin-left: 30px;
+}
+.btn{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+.btn i{
+    font-size: 35px;
+}
+
+
+/* Dark-Mode */
+
+.nav-dark{
+    background-color: rgb(19, 19, 19);
+    color: white;
+}
+.body-dark{
+    background-color: black;
+}
+.btn-dark{
+    border: 1px solid white;
+    background-color: black; 
+}
+
+.i-dark{
+    color: white;
+}
+.drop-dark{
+    background-color: white;
+    color: black;
+}
